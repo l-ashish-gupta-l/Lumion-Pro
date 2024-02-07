@@ -14,7 +14,7 @@ function Eyes() {
             setrotate(angle - 180);
         })
     }, [])
-    console.log(rotate)
+
 
     return (
         <div className='w-full h-screen overflow-hidden'>
