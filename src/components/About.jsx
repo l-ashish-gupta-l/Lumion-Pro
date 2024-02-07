@@ -2,7 +2,7 @@ import React from 'react'
 import Img from "../assest/photo-1.jpg"
 function About() {
     return (
-        <div className='w-full bg-[#CDEA68] rounded-tl-2xl rounded-tr-2xl  text-black'>
+        <div data-scroll data-scroll-section data-scroll-speed="-.2" className='w-full bg-[#CDEA68] rounded-tl-2xl rounded-tr-2xl  text-black'>
             <h1 className='font-[Neue] pt-24 pb-10 px-20 w-[93%] tracking-normal leading-[4vw] text-[3.8vw] text-[#212121] '>
                 Ochi is a strategic partner for fast-growing tech businesses that need to raise funds, sell products, explain complex ideas, and hire great people.
             </h1>

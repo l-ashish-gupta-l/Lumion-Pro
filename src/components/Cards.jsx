@@ -2,7 +2,7 @@ import React from 'react'
 
 function Cards() {
     return (
-        <div className='w-full p-20 h-screen bg-zinc-100'>
+        <div className='w-full px-20 py-32  h-screen bg-zinc-100 gap-2 flex '>
             <div className='container w-1/2 '>
                 <div className='card w-full h-96 relative  flex flex-col justify-center items-center rounded-xl bg-[#004D43]'>
                     <div className="logo flex justify-center items-center text-[#CDEA68]" >
@@ -13,6 +13,20 @@ function Cards() {
                             <path d="M31.5648 25.7016C28.5393 25.7016 26.0667 23.1156 26.0776 19.9851C26.0936 18.5291 26.6764 17.1366 27.7023 16.1029C28.7282 15.0692 30.1166 14.4757 31.573 14.4482C32.4198 14.4541 33.2537 14.6557 34.0095 15.0373C34.7654 15.4188 35.4227 15.97 35.9301 16.6477L40.0667 15.0144C38.2884 12.0853 35.0669 10.1145 31.4995 10.1989C25.8897 10.3214 21.6142 14.7313 21.6605 20.2709C21.7014 25.3505 26.2382 30.3565 32.3464 29.9183C33.9908 29.7803 35.5761 29.2408 36.9631 28.347C38.3501 27.4532 39.4963 26.2326 40.3009 24.7924L36.2542 22.9931C35.7705 23.8086 35.0851 24.486 34.2638 24.9604C33.4426 25.4347 32.5132 25.69 31.5648 25.7016Z" fill="currentColor"></path>
                             <path d="M52.4097 10.1387C51.2512 10.1119 50.1066 10.3947 49.0941 10.958C48.0816 11.5212 47.2379 12.3445 46.6501 13.3427V0.172852H42.293V29.4688H46.6501C46.6501 29.1721 46.6501 18.7816 46.6501 18.7816C46.6501 15.6946 47.8619 13.4352 50.8084 13.4352C54.6046 13.4352 54.6209 17.4178 54.6209 19.6962C54.6209 22.9165 54.6209 25.5189 54.6209 28.7393V29.4987H59.0271C59.0271 29.3708 59.0488 29.2728 59.0488 29.1721C59.0488 25.5108 59.0951 21.8522 59.0325 18.1909C58.9916 15.6538 58.5015 10.1387 52.4097 10.1387Z" fill="currentColor"></path>
                         </svg>
+                    </div>
+                    <button className='absolute bottom-8 px-5 py-1 border-[#CDEA68] border-2 rounded-full left-10 font-[Neue]
+                    font-medium text-[#CDEA68]'>&copy;2019-2020</button>
+                </div>
+            </div>
+            <div className='container w-1/2 flex gap-2'>
+                <div className='card w-full h-96 relative  flex flex-col justify-center items-center rounded-xl bg-[#212121]'>
+                    <div className="logo flex justify-center items-center text-[#CDEA68]" >
+                    </div>
+                    <button className='absolute bottom-8 px-5 py-1 border-[#CDEA68] border-2 rounded-full left-10 font-[Neue]
+                    font-medium text-[#CDEA68]'>&copy;2019-2020</button>
+                </div>
+                <div className='card w-full h-96 relative  flex flex-col justify-center items-center rounded-xl bg-[#212121]'>
+                    <div className="logo flex justify-center items-center text-[#CDEA68]" >
                     </div>
                     <button className='absolute bottom-8 px-5 py-1 border-[#CDEA68] border-2 rounded-full left-10 font-[Neue]
                     font-medium text-[#CDEA68]'>&copy;2019-2020</button>

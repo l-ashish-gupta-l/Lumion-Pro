@@ -6,16 +6,18 @@ import About from './components/About'
 import Eyes from './components/Eyes'
 import Features from './components/Features'
 import Cards from './components/Cards'
+import LocomotiveScroll from 'locomotive-scroll';
 function App() {
+  const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div className="w-full min-h-screen text-white">
+    <div className="w-full min-h-screen text-white bg-zinc-900">
       <Navbar />
       <Landingpage />
       <Marquee />
       <About />
       <Eyes />
       <Features />
-      <Cards/>
+      <Cards />
     </div>
   )
 }
