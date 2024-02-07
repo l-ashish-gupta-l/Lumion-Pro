@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Founders";
+    src: url(./Font/FoundersGrotesk-Semibold.ttf);
+}
+@font-face {
+    font-family: "Neue";
+    src: url(./Font/NeueMontreal-Regular.ttf);
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
