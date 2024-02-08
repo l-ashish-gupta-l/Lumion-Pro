@@ -10,7 +10,7 @@ import LocomotiveScroll from 'locomotive-scroll';
 function App() {
   const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div className="w-full min-h-screen text-white bg-zinc-900">
+    <div className="w-full min-h-screen text-[#212121] bg-[#F1F1F1]">
       <Navbar />
       <Landingpage />
       <Marquee />

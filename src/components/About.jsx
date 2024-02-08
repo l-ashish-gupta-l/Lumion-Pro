@@ -18,7 +18,7 @@ function About() {
                     {["Instagram", "Behance", "Facebook", "Linkedin"].map((item, index) => <a key={index}>{item}</a>)}
                 </div>
             </div>
-            <div className='  px-20 py-5   flex justify-between'>
+            <div className='  px-20 py-20   flex justify-between'>
                 <div className='w-1/2'>
                     <h1 className='text-5xl font-[Neue] mt-5'>Our approach:</h1>
                     <button className='px-8 uppercase py-3 rounded-full flex items-center justify-center gap-5 font-[Neue] text-white bg-zinc-900 mt-5'> Read more
