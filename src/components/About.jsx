@@ -1,10 +1,16 @@
 import React from 'react'
 import Img from "../assest/photo-1.jpg"
+import { motion } from "framer-motion"
+
+
 function About() {
     return (
         <div data-scroll data-scroll-section data-scroll-speed="-.2" className='w-full bg-[#CDEA68] rounded-tl-2xl rounded-tr-2xl  text-black'>
-            <h1 className='font-[Neue] pt-24 pb-10 px-20 w-[93%] tracking-normal leading-[4vw] text-[3.8vw] text-[#212121] '>
-                Ochi is a strategic partner for fast-growing tech businesses that need to raise funds, sell products, explain complex ideas, and hire great people.
+
+            <h1 className='font-[Neue] pt-24 pb-10 px-20 w-[93%] tracking-normal  leading-[4vw] text-[3.8vw] text-[#212121] '>
+                Ochi is a strategic partner for fast-growing tech businesses that need to
+                , sell products, explain complex ideas, and hire great people.
+
             </h1>
             <div className='border-t-[1px]  px-20 pt-5 pb-20  flex justify-between border-b-[1px] border-[#464C30]'>
                 <div className='text-[#464C30] font-[Neue] font-light '>What you can expect:</div>
@@ -37,3 +43,4 @@ function About() {
 }
 
 export default About
+export { UnderlineAnimation }

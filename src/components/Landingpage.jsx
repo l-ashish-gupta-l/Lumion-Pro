@@ -21,15 +21,16 @@ function Landingpage() {
                     <p className="text-base font-light tracking-tight leading-none font-[Neue]">
                         {item}
                     </p>)}
-                <div className="start flex justify-center items-center gap-2">
-                    <div className=" px-5 py-1 font-['Neue']  border-[1px] border-zinc-700 rounded-full text-base uppercase ">Start the project</div>
-                    <div className=" p-[.5vw] font-['Neue'] flex justify-center items-center  border-[1px] border-zinc-700 rounded-full text-lg uppercase">
+                <div className="start flex justify-center items-center gap-2 group">
+                    <div className="px-5 py-1 font-['Neue'] border-[1px] border-zinc-700 cursor-pointer rounded-full text-base uppercase hover:bg-[#212121] hover:text-white origin-center duration-500 group-hover:bg-[#212121] group-hover:text-white">
+                        Start the project
+                    </div>
+                    <div className="p-[.5vw] font-['Neue'] flex justify-center cursor-pointer items-center border-[1px] border-zinc-700 rounded-full text-lg uppercase group-hover:bg-[#212121] group-hover:text-white origin-center duration-500">
                         <PiArrowDownLeftLight className="rotate-180 text-base" />
                     </div>
-
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 
