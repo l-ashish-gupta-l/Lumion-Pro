@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { UnderlineAnimation } from './About'
 function Footer() {
     return (<>
         <div className='w-full h-screen bg-[#F1F1F1] flex'>
@@ -8,24 +8,32 @@ function Footer() {
             </div>
             <div className='right w-1/2  py-12 ' >
                 <h1 className='font-[Founders] text-[10vw] leading-[7vw]' >PRESENTATIONS</h1>
-                <div className='text-[#464C30] mt-10 flex text-left flex-col justify-end  font-[Neue] font-light  w-fit '>
-                    s:
-                    {["Instagram", "Behance", "Facebook", "Linkedin"].map((item, index) => <a className='text-left' key={index}>{item}</a>)}
+                <div className='text-[#464C30]  mt-10 flex text-left flex-col justify-end  font-[Neue] font-light w-[5%] '>
+                    S:
+                    {["Instagram", "Behance", "Facebook", "Linkedin"].map((item, index) => <a key={index}>
+                        <UnderlineAnimation Word={item} size={"1px"} />
+                    </a>)}
                 </div>
-                <div className='flex justify-between'>
-                    <div className='text-[#464C30] mt-10 flex text-left flex-col justify-end  font-[Neue] font-light  w-fit '>
-                        s:
-                        {["Instagram", "Behance", "Facebook", "Linkedin"].map((item, index) => <a className='text-left' key={index}>{item}</a>)}
+                <div className='flex justify-between pr-40'>
+                    <div className='text-[#464C30]  mt-10 flex text-left flex-col justify-end  font-[Neue] font-light  '>
+                        A:
+                        {["202-1965 W 4th Ave Vancouver , Canada", "30 Chukarina St Lviv, UkraineLinkedin"].map((item, index) => <a key={index} >
+                            <UnderlineAnimation Word={item} size={"1px"} />
+                        </a>)}
                     </div>
-                    <div className='text-[#464C30] mt-10 mr-40 flex text-left flex-col justify-end  font-[Neue] font-light  w-fit '>
-                        s:
-                        {["Instagram", "Behance", "Facebook", "Linkedin"].map((item, index) => <a className='text-left' key={index}>{item}</a>)}
+                    <div className='text-[#464C30]  mt-10 flex text-left flex-col justify-end  font-[Neue] font-light  '>
+                        L:
+                        {["Home", "About", "Services", "Our work"].map((item, index) => <a key={index}>
+                            <UnderlineAnimation Word={item} size={"1px"} />
+                        </a>)}
                     </div>
                 </div>
 
-                <div className='text-[#464C30] mt-10 flex text-left flex-col justify-end  font-[Neue] font-light  w-fit '>
-                    s:
-                    {["Instagram", "Behance", "Facebook", "Linkedin"].map((item, index) => <a className='text-left' key={index}>{item}</a>)}
+                <div className='text-[#464C30]  mt-16 flex text-left flex-col justify-end  font-[Neue] font-light w-[5%] '>
+                    E:
+                    {["hello@ochi.design"].map((item, index) => <a key={index}>
+                        <UnderlineAnimation Word={item} size={"1px"} />
+                    </a>)}
                 </div>
             </div>
         </div>

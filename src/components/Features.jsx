@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import Card1 from "../assest/card1.png"
 import { motion } from "framer-motion"
-import { Power4 } from 'gsap/all'
 function Features() {
     const [ishovery1, setishovery1] = useState(false)
     const [ishovery2, setishovery2] = useState(false)
