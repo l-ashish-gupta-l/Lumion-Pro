@@ -10,8 +10,8 @@ function Features() {
 
 
     return (
-        <div className='w-full py-20  bg-zinc-800'>
-            <div className='w-full px-16 pb-10 border-b-[1px] border-zinc-600'>
+        <div className='w-full py-20'>
+            <div className='w-full px-16 pb-10 border-b-[1.5px] border-zinc-300'>
                 <h1 className='text-6xl font-[Neue]'>Featured projects</h1>
             </div>
             <div className='px-16 '>

@@ -6,7 +6,9 @@ import About from './components/About'
 import Eyes from './components/Eyes'
 import Features from './components/Features'
 import Cards from './components/Cards'
-import LocomotiveScroll from 'locomotive-scroll';
+import LocomotiveScroll from 'locomotive-scroll'
+import Getreadyeye from './components/Getreadyeye'
+import Footer from './components/Footer'
 function App() {
   const locomotiveScroll = new LocomotiveScroll();
   return (
@@ -18,6 +20,8 @@ function App() {
       <Eyes />
       <Features />
       <Cards />
+      <Getreadyeye />
+      <Footer />
     </div>
   )
 }

@@ -43,4 +43,4 @@ function About() {
 }
 
 export default About
-export { UnderlineAnimation }
+// export { UnderlineAnimation }
