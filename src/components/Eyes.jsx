@@ -17,7 +17,7 @@ function Eyes() {
 
 
     return (
-        <div className='w-full h-[100vh] lg:h-screen   overflow-hidden'>
+        <div className='w-full h-[50vh] lg:h-screen   overflow-hidden'>
             <div data-scroll data-scroll-speed="-.7" className='h-1/2 lg:h-full lg:w-full flex justify-center items-center bg-cover bg-center bg-[url("https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg")] relative'>
                 <div className='absolute flex gap-10 lg:gap-20 w-1/2 h-1/3 lg:w-[50vw] lg:h-[40vh]  lg:px-20 py-5   '>
                     <div className='w-full h-full rounded-full  bg-white flex justify-center items-center'>

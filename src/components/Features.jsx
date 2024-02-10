@@ -9,20 +9,20 @@ function Features() {
 
 
     return (
-        <div className='w-full py-20'>
-            <div className='w-full px-16 pb-10 border-b-[1.5px] border-zinc-300'>
-                <h1 className='text-6xl font-[Neue]'>Featured projects</h1>
+        <div className='w-full lg:py-20 '>
+            <div className='w-full px-5 lg:px-16 pb-10 border-b-[1.5px] border-zinc-300'>
+                <h1 className='text-3xl lg:text-6xl font-[Neue]'>Featured projects</h1>
             </div>
-            <div className='px-16'>
-                <div className=' relative cards w-full h-full flex gap-5 mt-5   '>
-                    <div className='w-1/2  flex flex-col  '>
+            <div className='lg:px-16 px-5'>
+                <div className=' relative cards w-full h-full lg:flex lg:gap-5 mt-5   '>
+                    <div className='lg:w-1/2  lg:flex lg:flex-col     '>
                         <div className='px-4 py-2 flex justify-start items-center   '>
                             <div className='w-3 h-3 rounded-full bg-black'></div>
                             <h1 className='ml-2 font-[Neue] text-sm'>FYDE</h1>
                         </div>
                         <div onMouseEnter={() => setishovery1(true)} onMouseLeave={() => setishovery1(false)} className=' cardbox w-full  flex items-center justify-center '>
 
-                            <h1 className='absolute text-[#CDEA68] z-10 flex text-9xl ml-[50%] font-[Founders] overflow-hidden'>
+                            <h1 className='absolute text-[#CDEA68] hidden z-10 lg:flex text-9xl ml-[50%] font-[Founders] overflow-hidden'>
                                 {"FYDE".split("").map((item, index) =>
                                     <motion.span initial={{ y: "100%" }} animate={ishovery1 ? ({ y: "0" }) : ({ y: "100%" })}
                                         transition={{ ease: [0.22, 1, 0.36, 1], delay: index * .06 }} key={index} className='inline-block '>{item}</motion.span>)}
@@ -34,22 +34,20 @@ function Features() {
 
                             </motion.div>
                         </div>
-                        <div className='p-2 flex justify-start items-center    '>
-                            <h1 className='ml-2 px-3 py-1   rounded-3xl font-[Neue] text-sm border-black border-[1.5px]'>AUDIT</h1>
-                            <h1 className='ml-2 px-3 py-1   rounded-3xl font-[Neue] text-sm border-black border-[1.5px]'>AUDIT</h1>
+                        <div className='p-2 flex  '>
                             <h1 className='ml-2 px-3 py-1   rounded-3xl font-[Neue] text-sm border-black border-[1.5px]'>AUDIT</h1>
                             <h1 className='ml-2 px-3 py-1   rounded-3xl font-[Neue] text-sm border-black border-[1.5px]'>AUDIT</h1>
                             <h1 className='ml-2 px-3 py-1   rounded-3xl font-[Neue] text-sm border-black border-[1.5px]'>AUDIT</h1>
                         </div>
                     </div>
-                    <div className='w-1/2  flex flex-col '>
+                    <div className='lg:w-1/2  lg:flex lg:flex-col     '>
                         <div className='px-4 py-2 flex justify-start items-center   '>
                             <div className='w-3 h-3 rounded-full bg-black'></div>
                             <h1 className='ml-2 font-[Neue] text-sm'>FYDE</h1>
                         </div>
                         <div onMouseEnter={() => setishovery2(true)} onMouseLeave={() => setishovery2(false)} className=' cardbox w-full  flex items-center justify-center '>
 
-                            <h1 className='absolute text-[#CDEA68] z-10 flex text-9xl mr-[50%] font-[Founders] overflow-hidden'>
+                            <h1 className='absolute text-[#CDEA68] hidden z-10 lg:flex text-9xl mr-[50%] font-[Founders] overflow-hidden'>
                                 {"FYDE".split("").map((item, index) =>
                                     <motion.span initial={{ y: "100%" }} animate={ishovery2 ? ({ y: "0" }) : ({ y: "100%" })}
                                         transition={{ ease: [0.22, 1, 0.36, 1], delay: index * .06 }} key={index} className='inline-block '>{item}</motion.span>)}
@@ -61,14 +59,13 @@ function Features() {
 
                             </motion.div>
                         </div>
-                        <div className='p-2 flex justify-start items-center    '>
-                            <h1 className='ml-2 px-3 py-1   rounded-3xl font-[Neue] text-sm border-black border-[1.5px]'>AUDIT</h1>
-                            <h1 className='ml-2 px-3 py-1   rounded-3xl font-[Neue] text-sm border-black border-[1.5px]'>AUDIT</h1>
+                        <div className='p-2 flex  '>
                             <h1 className='ml-2 px-3 py-1   rounded-3xl font-[Neue] text-sm border-black border-[1.5px]'>AUDIT</h1>
                             <h1 className='ml-2 px-3 py-1   rounded-3xl font-[Neue] text-sm border-black border-[1.5px]'>AUDIT</h1>
                             <h1 className='ml-2 px-3 py-1   rounded-3xl font-[Neue] text-sm border-black border-[1.5px]'>AUDIT</h1>
                         </div>
                     </div>
+
 
                 </div>
             </div>
