@@ -4,6 +4,7 @@ function Cards() {
     return (
         <div className='w-full px-20 py-32  h-screen bg-zinc-100 gap-2 flex '>
             <div className='container w-1/2 '>
+                
                 <div className='card w-full h-96 relative  flex flex-col justify-center items-center rounded-xl bg-[#004D43]'>
                     <div className="logo flex justify-center items-center text-[#CDEA68]" >
                         <svg width="150" height="300" viewBox="0 0 72 30" fill="none" xmlns="http://www.w3.org/2000/svg">
