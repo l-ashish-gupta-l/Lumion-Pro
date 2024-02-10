@@ -24,8 +24,8 @@ function Features() {
                                     transition={{ ease: [0.22, 1, 0.36, 1], delay: index * .06 }} key={index} className='inline-block '>{item}</motion.span>)}
                         </h1>
 
-                        <motion.div initial={{ scale: 1 }} animate={ishovery1 ? ({ scale: ".9" }) : ({ scale: "1" })}
-                            transition={{ ease: [0.76, 0, 0.24, 1], duration: "3" }} className='card w-full h-full rounded-xl overflow-hidden '  >
+                        <motion.div initial={{ scale: "1" }} animate={ishovery1 ? ({ scale: ".9" }) : ({ scale: "1" })}
+                            transition={{ ease: 'easeInOut', duration: "5" }} className='card w-full h-full rounded-xl overflow-hidden  transition-transform '  >
                             <img src={Card1} alt="card1" className='object-cover' />
 
                         </motion.div>
@@ -35,10 +35,11 @@ function Features() {
                             {"VISE".split("").map((item, index) => <motion.span initial={{ y: "100%" }} animate={ishovery2 ? ({ y: "0" }) : ({ y: "100%" })}
                                 transition={{ ease: [0.22, 1, 0.36, 1], delay: index * .06 }} key={index} className='inline-block '>{item}</motion.span>)}
                         </h1>
-                        <div className='card w-full h-full rounded-xl overflow-hidden scale-100'  >
+                        <motion.div initial={{ scale: "1" }} animate={ishovery2 ? ({ scale: ".9" }) : ({ scale: "1" })}
+                            transition={{ ease: 'easeInOut', duration: "5" }} className='card w-full h-full rounded-xl overflow-hidden scale-100'  >
                             <img src={Card1} alt="card1" className='object-cover' />
 
-                        </div>
+                        </motion.div>
                     </div>
 
                 </div>

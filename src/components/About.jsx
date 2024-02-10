@@ -2,10 +2,10 @@ import React from 'react'
 import Img from "../assest/photo-1.jpg"
 
 
-function UnderlineAnimation({ Word, size }) {
+function UnderlineAnimation({ Word }) {
     return (
         <span className='m-1'>
-            <span className={`inline-block relative after:content-[''] cursor-pointer after:absolute after:w-full after:scale-x-100 after:h-[${size}]  after:bottom-0 after:left-0 after:bg-[#212121]  after:rounded-xl after:origin-bottom-left after:transition-transform after:duration-250 after:ease-out hover:after:scale-x-0  hover:after:origin-bottom-right`} >
+            <span className={`inline-block relative after:content-[''] cursor-pointer after:absolute after:w-full after:scale-x-100 after:h-[.05em] after:bottom-0 after:left-0 after:bg-[#212121]  after:rounded-xl after:origin-bottom-left after:transition-transform after:duration-250 after:ease-out hover:after:scale-x-0  hover:after:origin-bottom-right`} >
                 {Word}
             </span>
         </span >
@@ -19,10 +19,10 @@ function About() {
 
             <h1 className='font-[Neue] pt-24 pb-10 px-20 w-full tracking-normal  leading-[4vw] text-[3.8vw] text-[#212121] '>
                 Ochi is a strategic partner for fast-growing tech businesses that need to
-                <UnderlineAnimation Word={"raise funds"} size={"3px"} />
-                ,<UnderlineAnimation Word={"sell products"} size={"3px"} />
-                ,<UnderlineAnimation Word={"explain complex ideas"} size={"3px"} />
-                , and <UnderlineAnimation Word={"hire great people."} size={"3px"} />
+                <UnderlineAnimation Word={"raise funds"} />
+                ,<UnderlineAnimation Word={"sell products"} />
+                ,<UnderlineAnimation Word={"explain complex ideas"} />
+                , and <UnderlineAnimation Word={"hire great people."} />
 
 
             </h1>

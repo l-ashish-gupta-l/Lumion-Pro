@@ -11,20 +11,20 @@ function Footer() {
                 <div className='text-[#464C30]  mt-10 flex text-left flex-col justify-end  font-[Neue] font-light w-[5%] '>
                     S:
                     {["Instagram", "Behance", "Facebook", "Linkedin"].map((item, index) => <a key={index}>
-                        <UnderlineAnimation Word={item} size={"1px"} />
+                        <UnderlineAnimation Word={item} />
                     </a>)}
                 </div>
                 <div className='flex justify-between pr-40'>
                     <div className='text-[#464C30]  mt-10 flex text-left flex-col justify-end  font-[Neue] font-light  '>
                         A:
                         {["202-1965 W 4th Ave Vancouver , Canada", "30 Chukarina St Lviv, UkraineLinkedin"].map((item, index) => <a key={index} >
-                            <UnderlineAnimation Word={item} size={"1px"} />
+                            <UnderlineAnimation Word={item} />
                         </a>)}
                     </div>
                     <div className='text-[#464C30]  mt-10 flex text-left flex-col justify-end  font-[Neue] font-light  '>
                         L:
                         {["Home", "About", "Services", "Our work"].map((item, index) => <a key={index}>
-                            <UnderlineAnimation Word={item} size={"1px"} />
+                            <UnderlineAnimation Word={item} />
                         </a>)}
                     </div>
                 </div>
@@ -32,7 +32,7 @@ function Footer() {
                 <div className='text-[#464C30]  mt-16 flex text-left flex-col justify-end  font-[Neue] font-light w-[5%] '>
                     E:
                     {["hello@ochi.design"].map((item, index) => <a key={index}>
-                        <UnderlineAnimation Word={item} size={"1px"} />
+                        <UnderlineAnimation Word={item} />
                     </a>)}
                 </div>
             </div>
