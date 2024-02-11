@@ -1,13 +1,11 @@
 import React, { useState } from 'react'
 import Card1 from "../assest/card1.png"
 import { motion } from "framer-motion"
+
+
 function Features() {
     const [ishovery1, setishovery1] = useState(false)
     const [ishovery2, setishovery2] = useState(false)
-
-
-
-
     return (
         <div className='w-full lg:py-20 '>
             <div className='w-full px-5 lg:px-16 pb-10 border-b-[1.5px] border-zinc-300'>

@@ -1,8 +1,9 @@
 import React from 'react'
-
+import Clutch from "../assest/Clutch.svg"
+import future from "../assest/future.png"
 function Cards() {
     return (
-        <div className='w-full px-5 py-10 lg:px-20 lg:py-32  h-screen bg-zinc-100 gap-2 lg:flex '>
+        <div className='w-full px-5 py-10 lg:px-20  lg:py-32  lg:h-screen bg-zinc-100 gap-2 lg:flex '>
             <div className='container  lg:w-1/2 mb-5'>
 
                 <div className='card w-full h-56 lg:h-96 relative  flex flex-col justify-center items-center rounded-xl bg-[#004D43]'>
@@ -15,22 +16,26 @@ function Cards() {
                             <path d="M52.4097 10.1387C51.2512 10.1119 50.1066 10.3947 49.0941 10.958C48.0816 11.5212 47.2379 12.3445 46.6501 13.3427V0.172852H42.293V29.4688H46.6501C46.6501 29.1721 46.6501 18.7816 46.6501 18.7816C46.6501 15.6946 47.8619 13.4352 50.8084 13.4352C54.6046 13.4352 54.6209 17.4178 54.6209 19.6962C54.6209 22.9165 54.6209 25.5189 54.6209 28.7393V29.4987H59.0271C59.0271 29.3708 59.0488 29.2728 59.0488 29.1721C59.0488 25.5108 59.0951 21.8522 59.0325 18.1909C58.9916 15.6538 58.5015 10.1387 52.4097 10.1387Z" fill="currentColor"></path>
                         </svg>
                     </div>
-                    <button className='absolute bottom-3 lg:bottom-8 px-2 lg:px-5 py-1 border-[#CDEA68] border-2 rounded-full left-5 lg:left-10 font-[Neue]
-                    font-medium  lg:text-base text-xs text-[#CDEA68]'>&copy;2019-2020</button>
+                    <div className='absolute bottom-3 lg:bottom-8 px-2 lg:px-5 py-1 border-[#CDEA68] border-2 rounded-full left-5 lg:left-10 font-[Neue]
+                    font-medium  lg:text-base text-xs text-[#CDEA68]'>&copy;2019-2020</div>
                 </div>
             </div>
             <div className='container lg:w-1/2  flex gap-2'>
                 <div className='card w-full h-56 lg:h-96 relative  flex flex-col justify-center items-center rounded-xl bg-[#212121]'>
                     <div className="logo flex justify-center items-center text-[#CDEA68]" >
+                        <img src={Clutch} alt="Clutch logo" />
                     </div>
-                    <button className='absolute bottom-3 lg:bottom-8 px-2 lg:px-5 py-1 border-[#CDEA68] border-2 rounded-full left-5 lg:left-10 font-[Neue]
-                    font-medium lg:text-base text-xs text-[#CDEA68]'>&copy;2019-2020</button>
+                    <button className='absolute bottom-3 lg:bottom-8 hover:bg-zinc-300 hover:text-zinc-900 origin-bottom-right
+                    duration-500 tracking-tighter px-5 py-1 mr-10 border-zinc-300 border-2 rounded-full  lg:left-10 font-[Neue]
+                    font-medium lg:text-base text-xs text-zinc-300'>RATING 5.0 ON CLUTCH</button>
                 </div>
-                <div className='card w-full h-56 lg:h-96 relative  flex flex-col justify-center items-center rounded-xl bg-[#212121]'>
+                <div className='card w-full h-56 lg:h-96 relative  flex flex-col tracking-tighter justify-center items-center rounded-xl bg-[#212121]'>
                     <div className="logo flex justify-center items-center text-[#CDEA68]" >
+                        <img src={future} alt="future acedemy logo" className='w-1/2' />
                     </div>
-                    <button className='absolute bottom-3 lg:bottom-8 px-2 lg:px-5 py-1 border-[#CDEA68] border-2 rounded-full left-5 lg:left-10 font-[Neue]
-                    font-medium lg:text-base text-xs text-[#CDEA68]'>&copy;2019-2020</button>
+                    <button className='absolute bottom-3 lg:bottom-8 px-2 lg:px-5 py-1 border-zinc-300 border-2 rounded-full  lg:left-10 font-[Neue]
+                    font-medium lg:text-base text-xs tracking-tighter hover:bg-zinc-300 hover:text-zinc-900 origin-bottom-right
+                    duration-500  text-zinc-300 uppercase'>Professional Network</button>
                 </div>
             </div>
         </div>
