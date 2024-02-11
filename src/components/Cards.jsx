@@ -26,15 +26,15 @@ function Cards() {
                         <img src={Clutch} alt="Clutch logo" />
                     </div>
                     <button className='absolute bottom-3 lg:bottom-8 hover:bg-zinc-300 hover:text-zinc-900 origin-bottom-right
-                    duration-500 tracking-tighter px-5 py-1 mr-10 border-zinc-300 border-2 rounded-full  lg:left-10 font-[Neue]
-                    font-medium lg:text-base text-xs text-zinc-300'>RATING 5.0 ON CLUTCH</button>
+                    duration-500 tracking-tighter  py-1 mr-10 border-zinc-300 border-2 rounded-full  lg:left-10 font-[Neue]
+                    font-medium lg:text-base px-2 text-[.5em]  text-zinc-300'>RATING 5.0 ON CLUTCH</button>
                 </div>
                 <div className='card w-full h-56 lg:h-96 relative  flex flex-col tracking-tighter justify-center items-center rounded-xl bg-[#212121]'>
                     <div className="logo flex justify-center items-center text-[#CDEA68]" >
                         <img src={future} alt="future acedemy logo" className='w-1/2' />
                     </div>
-                    <button className='absolute bottom-3 lg:bottom-8 px-2 lg:px-5 py-1 border-zinc-300 border-2 rounded-full  lg:left-10 font-[Neue]
-                    font-medium lg:text-base text-xs tracking-tighter hover:bg-zinc-300 hover:text-zinc-900 origin-bottom-right
+                    <button className='absolute bottom-3 lg:bottom-8  lg:px-5 py-1 border-zinc-300 border-2 rounded-full  lg:left-10 font-[Neue]
+                    font-medium lg:text-base px-2 text-[.5em] tracking-tighter hover:bg-zinc-300 hover:text-zinc-900 origin-bottom-right
                     duration-500  text-zinc-300 uppercase'>Professional Network</button>
                 </div>
             </div>

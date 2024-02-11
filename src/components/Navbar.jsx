@@ -63,7 +63,7 @@ function Navbar({ onNavbarBtnClick }) {
                     <AnimatedLink Content={item} key={index} />
                 ))}
             </div>
-            <div onClick={onNavbarBtnClick} className='text-[#212121] flex justify-center items-center  lg:hidden' >
+            <div onClick={onNavbarBtnClick} className='w-10 h-10  text-[#212121] flex justify-center items-center  lg:hidden' >
                 <HiOutlineMenuAlt4 size={25} />
             </div>
 
