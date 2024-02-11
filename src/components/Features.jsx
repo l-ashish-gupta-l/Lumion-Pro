@@ -31,7 +31,7 @@ function FeatureCard({ Img1, Img2, Name1, Name2 }) {
                     </motion.div>
                 </div>
                 <div className='p-2 flex '>
-                    {["AUDIT", "COPYWRITING", "SALES DECK"].map((item, index) => {
+                    {["AUDIT", "COPYWRITING"].map((item, index) => {
                         return <h1 className='ml-2 px-3 py-1   rounded-3xl font-[Neue] text-sm border-black border-[1.5px]'>{item}</h1>
                     })}
                 </div>
