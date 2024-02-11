@@ -61,7 +61,7 @@ function Eyes() {
                         </div>
                     </div>
                     <div className='w-full h-full rounded-full  bg-white flex justify-center items-center'>
-                        <div className=' w-[15vw] h-[15vw] lg:w-[10vw] lg:h-[10vw] relative bg-zinc-900 rounded-full  font-[Neue] text-white flex justify-center items-center lg:text-sm text-[.5em]  '>
+                        <div onClick={togglePauseAndVisibility} className=' w-[15vw] h-[15vw] lg:w-[10vw] lg:h-[10vw] relative bg-zinc-900 rounded-full  font-[Neue] text-white flex justify-center items-center lg:text-sm text-[.5em]  '>
                             PLAY
                             <div style={{ transform: `translate(-50% ,-50%) rotate(${rotate}deg)` }} className='line absolute p-1 line top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-5'>
                                 <div className='w-3 h-3  lg:w-5 lg:h-5  bg-zinc-300 rounded-full'></div>
