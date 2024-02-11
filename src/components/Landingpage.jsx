@@ -14,7 +14,7 @@ function Landingpage() {
                             {index == 1 && (<motion.div initial={{ width: "0" }} animate={{ width: 100 }} transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }} className="lg:w-[8vw] h-10 flex items-center justify-center lg:h-[12vh] bg-black mt-4 rounded-lg mr-2  overflow-hidden">
                                 <img src={Heropage_headingimg} alt="Heropage-headingImg" className='w-full h-full  object-cover' />
                             </motion.div>)}
-                            <h1 key={index} className="text-[18vw] leading-[15vw]  lg:text-[10vw] lg:leading-[7vw] tracking-normal  font-medium font-[Founders] uppercase">{item}</h1>
+                            <h1 key={index} className="text-[18vw] leading-[15vw] whitespace-nowrap  lg:text-[10vw] lg:leading-[7vw] tracking-normal  font-medium font-[Founders] uppercase">{item}</h1>
                         </div>)
                 })}
             </div>
