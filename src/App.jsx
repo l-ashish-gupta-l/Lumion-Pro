@@ -11,12 +11,14 @@ import Getreadyeye from './components/Getreadyeye'
 import Footer from './components/Footer'
 import MobileMenu from './components/MobileMenu'
 function App() {
-  const locomotiveScroll = new LocomotiveScroll();
+  // const locomotiveScroll = new LocomotiveScroll();
+  const shouldInitializeLocomotiveScroll = window.innerWidth > 1024;
+  const locomotiveScroll = shouldInitializeLocomotiveScroll ? new LocomotiveScroll() : null;
   const [menuOpen, setMenuOpen] = useState(false);
 
   const handleNavbarBtnClick = () => {
     setMenuOpen(!menuOpen);
-    
+
   };
 
   const handleMobileMenuBtnClick = () => {

@@ -22,7 +22,7 @@ function MobileMenu({ isOpen, onMobileMenuBtnClick }) {
             </div>
             <div className="links font-['Founders'] px-5 grid text-white ">
                 {["Services", "Our Work", "About Us", "Insights", "Contact Us"].map((item, index) => (
-                    <a className='text-6xl mt-5'>{item}</a>
+                    <a key={index} className='text-6xl mt-5'>{item}</a>
                 ))}
                 <div className='text-white mt-10  lg:mr-20 flex text-left flex-col justify-end  font-[Neue] font-light w-[5%] '>
                     s:

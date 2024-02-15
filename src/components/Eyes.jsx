@@ -51,8 +51,8 @@ function Eyes() {
     return (
         <div className='relative w-full h-[50vh] lg:h-screen overflow-hidden'>
             <div data-scroll data-scroll-speed="-.7" className='h-[50vh] lg:h-full lg:w-full flex justify-center items-center bg-cover bg-center bg-[url("https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg")] relative'>
-                <div className='absolute flex gap-10 lg:gap-20 w-1/2 h-1/3 lg:w-[50vw] lg:h-[40vh]  lg:px-20 py-5    '>
-                    <div className='w-full rounded-full  bg-white flex justify-center items-center'>
+                <div className='absolute flex justify-center items-center gap-10 lg:gap-20 w-full h-full lg:w-[50vw] lg:h-[40vh]  lg:px-20 py-5     '>
+                    <div className='w-[20vw] h-[20vw] lg:w-[13vw] lg:h-[26vh] rounded-full  bg-white flex justify-center items-center'>
                         <div onClick={togglePauseAndVisibility} className=' w-[15vw] h-[15vw] cursor-pointer lg:w-[10vw] lg:h-[10vw] relative flex justify-center items-center bg-zinc-900 rounded-full  font-[Neue] text-white lg:text-sm text-[.5em]   '>
                             PLAY
                             <div style={{ transform: `translate(-50% ,-50%) rotate(${rotate}deg)` }} className='line absolute p-1 line top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-5'>
@@ -60,7 +60,7 @@ function Eyes() {
                             </div>
                         </div>
                     </div>
-                    <div className='w-full h-full rounded-full  bg-white flex justify-center items-center'>
+                    <div className='w-[20vw] h-[20vw] lg:w-[13vw] lg:h-[26vh] rounded-full  bg-white flex justify-center items-center'>
                         <div onClick={togglePauseAndVisibility} className=' w-[15vw] h-[15vw] cursor-pointer lg:w-[10vw] lg:h-[10vw] relative bg-zinc-900 rounded-full  font-[Neue] text-white flex justify-center items-center lg:text-sm text-[.5em]  '>
                             PLAY
                             <div style={{ transform: `translate(-50% ,-50%) rotate(${rotate}deg)` }} className='line absolute p-1 line top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-5'>

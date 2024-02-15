@@ -48,7 +48,7 @@ function About() {
                     </button>
                 </div>
                 <div className='lg:w-1/2 lg:h-[60vh] lg:mt-0 mt-10   bg-black rounded-xl overflow-hidden '>
-                    <img src={Img} alt='Photo-1 ' className='max-w-full h-auto' />
+                    <img src={Img} alt='Photo-1 ' className='w-full h-full' />
                 </div>
 
             </div>

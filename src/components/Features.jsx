@@ -32,7 +32,7 @@ function FeatureCard({ Img1, Img2, Name1, Name2 }) {
                 </div>
                 <div className='p-2 flex '>
                     {["AUDIT", "COPYWRITING"].map((item, index) => {
-                        return <h1 className='ml-2 px-3 py-1   rounded-3xl font-[Neue] text-sm border-black border-[1.5px]'>{item}</h1>
+                        return <h1 key={index} className='ml-2 px-3 py-1   rounded-3xl font-[Neue] text-sm border-black border-[1.5px]'>{item}</h1>
                     })}
                 </div>
             </div>
@@ -57,7 +57,7 @@ function FeatureCard({ Img1, Img2, Name1, Name2 }) {
                 </div>
                 <div className='p-2 flex '>
                     {["AGENCY", "COMPONY PRESENTATION"].map((item, index) => {
-                        return <h1 className='ml-2 px-3 py-1   rounded-3xl font-[Neue] text-sm border-black border-[1.5px]'>{item}</h1>
+                        return <h1 key={index} className='ml-2 px-3 py-1   rounded-3xl font-[Neue] text-sm border-black border-[1.5px]'>{item}</h1>
                     })}
                 </div>
             </div>
